@@ -1,7 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -37,7 +33,7 @@ const Slide1 = () => (
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <span className="text-blue-500 font-mono tracking-widest uppercase text-sm">Professional Web Developer</span>
+        <span className="text-blue-500 font-mono tracking-widest uppercase text-sm">Freelance Web Developer</span>
         <h1 className="text-7xl font-black text-white mt-2 leading-tight tracking-tighter">
           BASAVARAJ
         </h1>
@@ -99,12 +95,8 @@ const Slide2 = () => (
         </p>
         <div className="flex gap-8">
           <div>
-            <span className="block text-5xl font-black text-blue-500">2+</span>
-            <span className="text-zinc-500 uppercase text-xs tracking-widest">Years Experience</span>
-          </div>
-          <div>
-            <span className="block text-5xl font-black text-white">50+</span>
-            <span className="text-zinc-500 uppercase text-xs tracking-widest">Projects Delivered</span>
+            <span className="block text-5xl font-black text-blue-500">10+</span>
+            <span className="text-zinc-500 uppercase text-xs tracking-widest">Industries</span>
           </div>
         </div>
       </div>
@@ -118,17 +110,17 @@ const Slide2 = () => (
     </div>
     
     <div className="pt-12 border-t border-white/5">
-      <p className="text-zinc-500 text-sm uppercase tracking-[0.3em] mb-6 text-center">Industries Served</p>
+      <p className="text-zinc-500 text-sm uppercase tracking-[0.3em] mb-6 text-center">Industry we serve</p>
       <div className="overflow-hidden relative h-12">
         <motion.div 
-          animate={{ x: [0, -1000] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+          animate={{ x: [0, -1800] }}
+          transition={{ repeat: Infinity, duration: 35, ease: "linear" }}
           className="flex gap-16 items-center whitespace-nowrap absolute left-0"
         >
-          {['TECH', 'RETAIL', 'HEALTH', 'FINANCE', 'EDUCATION', 'FASHION', 'REAL ESTATE', 'FOOD'].map((industry) => (
+          {['REAL ESTATE', 'FOOD', 'TECH', 'RETAIL', 'HEALTH', 'FINANCE', 'EDUCATION', 'FASHION', 'AGRICULTURE', 'FITNESS', 'MANUFACTURING'].map((industry) => (
             <span key={industry} className="text-2xl font-black text-zinc-800 tracking-tighter">{industry}</span>
           ))}
-          {['TECH', 'RETAIL', 'HEALTH', 'FINANCE', 'EDUCATION', 'FASHION', 'REAL ESTATE', 'FOOD'].map((industry) => (
+          {['REAL ESTATE', 'FOOD', 'TECH', 'RETAIL', 'HEALTH', 'FINANCE', 'EDUCATION', 'FASHION', 'AGRICULTURE', 'FITNESS', 'MANUFACTURING'].map((industry) => (
             <span key={industry + '-2'} className="text-2xl font-black text-zinc-800 tracking-tighter">{industry}</span>
           ))}
         </motion.div>
@@ -213,7 +205,7 @@ const Slide5 = () => (
             "Professional Website Development",
             "Free Domain (1 Year)",
             "Free Hosting (1 Year)",
-            "SEO Optimization",
+            "Basic SEO Optimization",
             "1 Year Free Maintenance & Support",
             "Fast Loading & Secure Website",
             "Minimal Update Cost"
@@ -283,7 +275,7 @@ const Slide7 = () => (
     <div className="grid md:grid-cols-2 gap-12 items-center">
       <div className="space-y-8">
         <div>
-          <h2 className="text-5xl font-black text-white">On-page SEO Setup</h2>
+          <h2 className="text-5xl font-black text-white">On-page Basic SEO Setup</h2>
           <p className="text-zinc-400 mt-4 text-lg">Visibility is the key to profitability. I ensure your website is built to be found.</p>
         </div>
         <div className="space-y-6">
@@ -321,7 +313,7 @@ const Slide7 = () => (
             <span className="text-emerald-500 font-bold">98/100</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-black/50 rounded-xl border border-white/5">
-            <span className="text-zinc-400">SEO Health</span>
+            <span className="text-zinc-400">Basic SEO Health</span>
             <span className="text-blue-500 font-bold">Excellent</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-black/50 rounded-xl border border-white/5">
@@ -422,7 +414,7 @@ const Slide10 = () => (
         {[
           "1 Year Free Domain",
           "1 Year Free Hosting",
-          "SEO Optimization Included",
+          "Basic SEO Optimization Included",
           "1-Year Maintenance Included",
           "Responsive Design",
           "Fast & Secure Setup"
@@ -480,7 +472,7 @@ export default function App() {
       <header className="p-6 flex justify-between items-center border-b border-white/5 bg-black/50 backdrop-blur-md z-50">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-blue-500 rounded flex items-center justify-center font-black italic">B</div>
-          <span className="font-black tracking-tighter text-xl">BASAVARAJ<span className="text-blue-500">.DEV</span></span>
+          <span className="font-black tracking-tighter text-xl">BASAVARAJ</span>
         </div>
         <div className="hidden md:flex gap-8 text-xs font-mono text-zinc-500 uppercase tracking-widest">
           <span>Strategy</span>
