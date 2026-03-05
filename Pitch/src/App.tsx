@@ -39,7 +39,7 @@ const Slide1 = () => (
       >
         <span className="text-blue-500 font-mono tracking-widest uppercase text-sm">Freelance Web Developer</span>
         <h1 className="text-7xl font-black text-white mt-2 leading-tight tracking-tighter">
-          BASAVARAJ
+          BASAVARAJ.WEBSITES
         </h1>
         <p className="text-2xl text-zinc-400 font-light italic mt-4">
           “Professional Websites for All Enterprises”
