@@ -483,7 +483,7 @@ export default function App() {
       <header className="p-6 flex justify-between items-center border-b border-white/5 bg-black/50 backdrop-blur-md z-50">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-blue-500 rounded flex items-center justify-center font-black italic">B</div>
-          <span className="font-black tracking-tighter text-xl">BASAVARAJ <span className="text-blue-500 uppercase">Web</span></span>
+          <span className="font-black tracking-tighter text-xl">BASAVARAJ. <span className="text-blue-500 uppercase">Web</span></span>
         </div>
         <div className="hidden md:flex gap-8 text-xs font-mono text-zinc-500 uppercase tracking-widest">
           <span>Strategy</span>
