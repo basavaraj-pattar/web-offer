@@ -1,3 +1,7 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -233,7 +237,10 @@ const Slide5 = () => (
           <p className="text-zinc-400">Everything you need to launch your business online successfully, with zero technical headaches.</p>
           <div className="pt-6">
             <span className="text-zinc-500 text-sm uppercase tracking-widest">Starting at only</span>
-            <div className="text-5xl font-black text-white mt-1">₹24,999</div>
+            <div className="flex flex-col items-center mt-1">
+              <span className="text-2xl text-zinc-500 line-through">₹24,999</span>
+              <span className="text-6xl font-black text-white">₹12,499</span>
+            </div>
           </div>
         </div>
       </div>
@@ -405,8 +412,9 @@ const Slide10 = () => (
           <p className="text-zinc-500 mt-1">Complete digital presence solution</p>
         </div>
         <div className="text-right">
-          <div className="text-5xl font-black text-white">₹24,999/-</div>
-          <p className="text-blue-500 font-mono text-sm">All-Inclusive Price</p>
+          <div className="text-2xl text-zinc-500 line-through">₹24,999/-</div>
+          <div className="text-6xl font-black text-white">₹12,499/-</div>
+          <p className="text-blue-500 font-mono text-sm">Limited Time Offer</p>
         </div>
       </div>
       
@@ -427,9 +435,12 @@ const Slide10 = () => (
       </div>
       
       <div className="space-y-4">
-        <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-5 rounded-2xl transition-all shadow-lg shadow-blue-500/20 text-xl">
+        <a 
+          href="tel:9035438851"
+          className="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-5 rounded-2xl transition-all shadow-lg shadow-blue-500/20 text-xl text-center"
+        >
           Get Started Now
-        </button>
+        </a>
         <div className="flex items-center justify-center gap-6 text-zinc-500">
           <div className="flex items-center gap-2">
             <Phone size={16} />
